@@ -1,0 +1,24 @@
+{
+  "name": "js-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mughammad-Case/js-blockchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mughammad-Case/js-blockchain/issues"
+  },
+  "homepage": "https://github.com/Mughammad-Case/js-blockchain#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}
