@@ -12,7 +12,7 @@ class Block {
 
   calculateHash() {
     return SHA256(
-      this.index + this.previousHash + this.timestamp + this.data + this.nonce
+      this.index + this.previousHash + this.timestamp + JSON.stringify(this.data) + this.nonce
     ).toString();
   } // Creates a SHA256 hash (digital fingerprint) on Block
 
@@ -34,7 +34,7 @@ class Blockchain {
   }
 
   createGenesisBlock() {
-    return new Block("27/11/2025", "The Genesis Block", "0");
+    return new Block("11/27/2025", "The Genesis Block", "0");
   } // Manually creates first block
 
   getLatestBlock() {
